@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Email Template Design</title>
-    <!-- CSS STYLE -->
+
     <style type="text/css">
       @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
 
@@ -79,6 +79,47 @@
           width: 100% !important;
           height: auto !important;
         }
+        .img_m_view {
+          width: 80% !important;
+        }
+        .banner_m_view {
+          height: 450px !important;
+        }
+        .m-countdown-wrapper {
+          width: 100% !important;
+          max-width: 300px !important;
+        }
+        .m_counter_box {
+          width: 55px !important;
+          max-width: 55px !important;
+          padding: 5px !important;
+        }
+        .m_counter_box > p {
+          padding: 10px 15px !important;
+        }
+        .m-20-space {
+          height: 20px !important;
+          line-height: 20px !important;
+          font-size: 20px !important;
+        }
+        .m-title {
+          font-size: 28px !important;
+          font-weight: 800 !important;
+          letter-spacing: 2px !important;
+        }
+        .m-subtitle {
+        }
+        .m-main-btn {
+          width: 180px !important;
+        }
+        .m-main-btn > tbody > tr > td {
+          height: 35px !important;
+          font-size: 12px !important;
+        }
+        .m-main-btn > tbody > tr > td > a {
+          width: 180px !important;
+          line-height: 35px !important;
+        }
         *[class="mobileOff"] {
           width: 0px !important;
           display: none !important;
@@ -99,10 +140,8 @@
         }
       }
     </style>
-
-    <!-- CSS STYLE -->
   </head>
-  <body style="margin: 0; padding: 0; background-color: inherit">
+  <body style="margin: 0; padding: 0; background-color: #fff">
     <center>
       <!-- Primary Table  -->
       <table
@@ -112,12 +151,13 @@
         cellspacing="0"
         role="presentation"
         border="0"
+        bgcolor="#fff"
       >
         <tr>
           <td align="center" valign="top">
             <!-- Don't Touch Upper Table  -->
 
-            <!-- ! TOP SECTION -->
+            <!-- * HEADER SECTION START * -->
             <table
               width="600"
               cellspacing="0"
@@ -139,206 +179,172 @@
                   >
                     <tr>
                       <td align="center" valign="top">
-                        <!-- TOP IMAGE -->
-                        <img
-                          src="https://i.postimg.cc/66PS6Gzx/image-1.png"
-                          width="100%"
-                          height="600"
-                          style="
-                            margin: 0;
-                            padding: 0;
-                            border: none;
-                            display: block;
-                            max-width: 600px;
-                            height: 600;
-                          "
-                          border="0"
-                          class="img"
-                          alt="image"
-                        />
-                        <!-- TOP IMAGE -->
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
+                        >
+                          <img
+                            src="image-1.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: block;
+                              max-width: 600px;
+                              height: 600px;
+                            "
+                            border="0"
+                            class="img banner_m_view"
+                            alt="image"
+                          />
+                        </a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
-            <!-- ! TOP SECTION -->
+            <!-- * HEADER SECTION END * -->
 
-            <!-- !* 2nd Section -->
+            <!-- * SLOGAN SECTION START * -->
             <table
-              width="100%"
-              border="0"
+              width="600"
               cellpadding="0"
               cellspacing="0"
-              role="presentation"
               border="0"
+              class="wrapper"
+              bgcolor="#FFFFFF"
             >
+              <!-- SPACE -->
               <tr>
-                <td height="15" style="font-size: 15px; line-height: 15px">
+                <td height="10" style="font-size: 10px; line-height: 10px">
                   &nbsp;
                 </td>
               </tr>
-
+              <!-- SPACE -->
               <tr>
-                <td align="center" valign="top" width="100%">
-                  <!--[if (gte mso 9)|(IE)]>
-                             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-                             <tr>
-                             <td align="center" valign="top" width="600">
-                             <![endif]-->
+                <td align="center" valign="top">
                   <table
-                    align="center"
-                    border="0"
+                    width="600"
                     cellpadding="0"
                     cellspacing="0"
-                    width="100%"
-                    style="max-width: 600px"
-                    bgcolor="#FFFFFF"
+                    border="0"
+                    class="container"
                   >
                     <tr>
-                      <td align="center" valign="top" style="font-size: 0">
-                        <!--[if (gte mso 9)|(IE)]>
-                                   <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-                                   <tr>
-                                   <td align="left" valign="top" width="295">
-                                   <![endif]-->
-                        <div
-                          style="
-                            display: inline-block;
-                            max-width: 295px;
-                            vertical-align: top;
-                            width: 100%;
-                          "
+                      <td
+                        width="300"
+                        class="mobile"
+                        align="center"
+                        valign="top"
+                      >
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
                         >
-                          <table
-                            align="left"
-                            border="0"
-                            cellpadding="0"
-                            cellspacing="0"
+                          <img
+                            src="image-2.png"
                             width="100%"
-                            style="max-width: 295px"
-                            class="deviceWidth"
-                          >
-                            <tr>
-                              <td
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: block;
+                              max-width: 600px;
+                            "
+                            border="0"
+                            class="img img_m_view"
+                            alt="image"
+                          />
+                        </a>
+                      </td>
+                      <td
+                        width="300"
+                        class="mobile"
+                        align="center"
+                        valign="top"
+                      >
+                        <table
+                          width="600"
+                          cellspacing="0"
+                          cellpadding="0"
+                          border="0"
+                          align="center"
+                          style="max-width: 600px; width: 100%"
+                        >
+                          <tr>
+                            <td
+                              align="center"
+                              valign="top"
+                              style="padding: 10px"
+                            >
+                              <table
+                                width="600"
+                                cellspacing="0"
+                                cellpadding="0"
+                                border="0"
                                 align="center"
-                                valign="top"
-                                style="font-size: 14px; padding: 10px"
+                                style="max-width: 600px; width: 100%"
                               >
-                                <img
-                                  src="https://i.postimg.cc/gkffs66H/image-2.png"
-                                  width="100%"
-                                  style="
-                                    margin: 0;
-                                    padding: 0;
-                                    border: none;
-                                    display: block;
-                                    max-width: 600px;
-                                  "
-                                  border="0"
-                                  class="img"
-                                  alt="image"
-                                />
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
-                        <!--[if (gte mso 9)|(IE)]>
-                                   </td>
-                                   <td align="left" valign="top" width="295">
-                                   <![endif]-->
-                        <div
-                          style="
-                            display: inline-block;
-                            max-width: 295px;
-                            vertical-align: top;
-                            width: 100%;
-                          "
-                        >
-                          <table
-                            align="left"
-                            border="0"
-                            cellpadding="0"
-                            cellspacing="0"
-                            width="100%"
-                            style="max-width: 295px"
-                            class="deviceWidth"
-                          >
-                            <tr>
-                              <td
-                                align="left"
-                                valign="top"
-                                style="font-size: 14px; padding: 10px"
-                              >
-                                <h2
-                                  class="heading__title"
-                                  style="
-                                    background-color: #28253b;
-                                    color: #ffffff;
-                                    padding: 5px 10px;
-                                    font-weight: 900;
-                                    font-size: 20px;
-                                    line-height: 30px;
-                                  "
-                                >
-                                  UNLOCK META QUEST 3
-                                </h2>
-                                <h3
-                                  class="subheading"
-                                  style="
-                                    color: #28253b;
-                                    font-weight: 700;
-                                    margin: 10px 0;
-                                    font-size: 17px;
-                                  "
-                                >
-                                  FASTER WITH 3X REWARDS
-                                </h3>
+                                <tr>
+                                  <td align="left" valign="middle">
+                                    <h2
+                                      style="
+                                        background-color: #302d42;
+                                        padding: 6px 8px;
+                                        font-size: 22px;
+                                        font-weight: 800;
+                                        color: #fff;
+                                        margin-bottom: 10px;
+                                      "
+                                    >
+                                      UNLOCK META QUEST 3
+                                    </h2>
 
-                                <span
-                                  height="10"
-                                  style="font-size: 10px; line-height: 10px"
-                                >
-                                  <!-- space -->
-                                </span>
-
-                                <p
-                                  style="
-                                    font-size: 15px;
-                                    line-height: 23px;
-                                    color: #28253b;
-                                  "
-                                >
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipisicing elit. Quam, tempora eaque fugit
-                                  officia totam doloremque alias. Asperiores
-                                  laudantium ab vel soluta quia aspernatur,
-                                  impedit qui culpa quasi excepturi veniam nemo?
-                                </p>
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
-                        <!--[if (gte mso 9)|(IE)]>
-                                   </td>
-                                   </tr>
-                                   </table>
-                                   <![endif]-->
+                                    <h3
+                                      style="
+                                        font-size: 18px;
+                                        font-weight: 900;
+                                        line-height: 30px;
+                                        margin-bottom: 10px;
+                                      "
+                                    >
+                                      FASTER WITH 3X REWARDS
+                                    </h3>
+                                    <p
+                                      style="font-size: 14px; line-height: 20px"
+                                    >
+                                      Lorem ipsum dolor sit, amet consectetur
+                                      adipisicing elit. Adipisci, aliquam at
+                                      nihil vero animi expedita beatae
+                                      voluptatem dicta amet? Aspernatur.
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
-                  <!--[if (gte mso 9)|(IE)]>
-                             </td>
-                             </tr>
-                             </table>
-                             <![endif]-->
                 </td>
               </tr>
+              <!-- SPACE -->
+              <tr>
+                <td height="10" style="font-size: 10px; line-height: 10px">
+                  &nbsp;
+                </td>
+              </tr>
+              <!-- SPACE -->
             </table>
-            <!-- !* 2nd Section -->
 
-            <!-- !@ Starting Soon & Button -->
+            <!-- * SLOGAN SECTION END * -->
+
+            <!-- * COUNTDOWN WITH BUTTON SECTION START * -->
             <table
               width="600"
               cellspacing="0"
@@ -346,12 +352,8 @@
               border="0"
               align="center"
               style="max-width: 600px; width: 100%"
+              bgcolor="#FFFFFF"
             >
-              <tr>
-                <td height="20" style="font-size: 20px; line-height: 20px">
-                  &nbsp;
-                </td>
-              </tr>
               <tr>
                 <td align="center" valign="top" style="padding: 10px">
                   <table
@@ -364,96 +366,565 @@
                   >
                     <tr>
                       <td align="center" valign="top">
-                        <p
-                          style="
-                            font-size: 14px;
-                            font-weight: 600;
-                            line-height: 30px;
-                          "
-                        >
-                          Starting Soon
-                        </p>
+                        <p style="font-size: 14px">Starting Soon</p>
                       </td>
                     </tr>
-                    <!-- Counter -->
-                    <tr>
-                      <td align="center" valign="top"></td>
-                    </tr>
-                    <!-- counter -->
+
+                    <!-- for space -->
                     <tr>
                       <td
                         height="10"
                         style="font-size: 10px; line-height: 10px"
                       >
-                        <!-- SPACE -->
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- for space -->
+
+                    <!-- Countdown -->
+                    <tr>
+                      <td align="center" valign="top"></td>
+                    </tr>
+                    <!-- Countdown -->
+                    <tr>
+                      <td align="center" valign="top">
+                        <table
+                          width="400"
+                          cellspacing="0"
+                          cellpadding="0"
+                          border="0"
+                          align="center"
+                          style="max-width: 400px; width: 100%"
+                          bgcolor="#FFFFFF"
+                          class="m-countdown-wrapper"
+                        >
+                          <tr>
+                            <td align="center" valign="top">
+                              <table
+                                width="400"
+                                cellspacing="0"
+                                cellpadding="0"
+                                border="0"
+                                align="center"
+                                style="
+                                  max-width: 400px;
+                                  width: 100%;
+                                  background-color: #000;
+                                  color: #fff;
+                                  border-radius: 20px;
+                                "
+                                class="m-countdown-wrapper"
+                              >
+                                <tr>
+                                  <td
+                                    width="75"
+                                    align="center"
+                                    valign="middle"
+                                    style="padding: 10px"
+                                    class="m_counter_box"
+                                  >
+                                    <p
+                                      style="
+                                        border: 2px solid #545654;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                      "
+                                    >
+                                      <b
+                                        style="
+                                          font-weight: 900;
+                                          font-size: 20px;
+                                        "
+                                        >0</b
+                                      >
+                                      <br />
+                                      <small
+                                        style="
+                                          font-size: 11px;
+                                          font-weight: 200;
+                                        "
+                                        >Days</small
+                                      >
+                                    </p>
+                                  </td>
+                                  <td
+                                    width="75"
+                                    align="center"
+                                    valign="middle"
+                                    style="padding: 10px"
+                                    class="m_counter_box"
+                                  >
+                                    <p
+                                      style="
+                                        border: 2px solid #545654;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                      "
+                                    >
+                                      <b
+                                        style="
+                                          font-weight: 900;
+                                          font-size: 20px;
+                                        "
+                                        >0</b
+                                      >
+                                      <br />
+                                      <small
+                                        style="
+                                          font-size: 11px;
+                                          font-weight: 200;
+                                        "
+                                        >Days</small
+                                      >
+                                    </p>
+                                  </td>
+                                  <td
+                                    width="75"
+                                    align="center"
+                                    valign="middle"
+                                    style="padding: 10px"
+                                    class="m_counter_box"
+                                  >
+                                    <p
+                                      style="
+                                        border: 2px solid #545654;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                      "
+                                    >
+                                      <b
+                                        style="
+                                          font-weight: 900;
+                                          font-size: 20px;
+                                        "
+                                        >0</b
+                                      >
+                                      <br />
+                                      <small
+                                        style="
+                                          font-size: 11px;
+                                          font-weight: 200;
+                                        "
+                                        >Days</small
+                                      >
+                                    </p>
+                                  </td>
+                                  <td
+                                    width="75"
+                                    align="center"
+                                    valign="middle"
+                                    style="padding: 10px"
+                                    class="m_counter_box"
+                                  >
+                                    <p
+                                      style="
+                                        border: 2px solid #545654;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                      "
+                                    >
+                                      <b
+                                        style="
+                                          font-weight: 900;
+                                          font-size: 20px;
+                                        "
+                                        >0</b
+                                      >
+                                      <br />
+                                      <small
+                                        style="
+                                          font-size: 11px;
+                                          font-weight: 200;
+                                        "
+                                        >Days</small
+                                      >
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- Countdown -->
+                    <!-- Space -->
+                    <tr>
+                      <td
+                        height="15"
+                        style="font-size: 15px; line-height: 15px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- Space -->
+                    <!-- Button -->
+                    <table
+                      width="230"
+                      height="50"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                      bgcolor="#1273EB"
+                      style="border-radius: 10px"
+                      class="m-main-btn"
+                    >
+                      <tr>
+                        <td
+                          align="center"
+                          valign="middle"
+                          height="50"
+                          style="
+                            font-size: 14px;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                          "
+                        >
+                          <a
+                            href="#"
+                            target="_blank"
+                            style="
+                              color: #ffffff;
+                              display: inline-block;
+                              text-decoration: none;
+                              line-height: 50px;
+                              width: 230px;
+                            "
+                            >Get Your Bonous Now
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Button -->
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td height="30" style="font-size: 30px; line-height: 30px">
+                  &nbsp;
+                </td>
+              </tr>
+            </table>
+
+            <!-- * COUNTDOWN WITH BUTTON SECTION END * -->
+
+            <!-- * BITCOIN DICE SECTION START * -->
+
+            <table
+              width="595"
+              cellspacing="0"
+              cellpadding="0"
+              border="0"
+              align="center"
+              style="
+                max-width: 595px;
+                width: 98%;
+                border-radius: 10px;
+                background-color: #f6f6f6;
+              "
+              bgcolor="#F6F6F6"
+            >
+              <tr>
+                <td align="center" valign="top" style="padding: 10px">
+                  <table
+                    width="595"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    align="center"
+                    style="max-width: 595px; width: 98%"
+                  >
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                     <tr>
                       <td align="center" valign="top">
-                        <!-- Button -->
-                        <table
-                          width="250"
-                          height="40"
-                          cellpadding="0"
-                          cellspacing="0"
-                          border="0"
-                          bgcolor="#1273EB"
-                          style="border-radius: 5px"
+                        <h2
+                          class="m-title"
+                          style="
+                            font-size: 35px;
+                            font-weight: 800;
+                            letter-spacing: 2px;
+                            line-height: 45px;
+                          "
                         >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="middle"
-                              height="40"
-                              style="
-                                font-size: 16p;
-                                font-weight: 600;
-                                letter-spacing: 1px;
-                              "
-                            >
-                              <a
-                                href="#"
-                                target="_blank"
-                                style="
-                                  color: #ffffff;
-                                  display: inline-block;
-                                  text-decoration: none;
-                                  line-height: 40px;
-                                  width: 250px;
-                                "
-                                >GET YOUR BONUS NOW
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- Button -->
+                          BITCOIN DICE
+                        </h2>
+                        <p style="font-size: 13px">
+                          Triple Your Rewards: Get 3X Bonus Points With Every
+                          Roll & Wager.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="20"
+                        style="font-size: 20px; line-height: 20px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- Section Image -->
+                    <tr>
+                      <td align="center" valign="middle">
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
+                          ><img
+                            src="image-3.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: block;
+                              max-width: 600px;
+                            "
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
+                      </td>
+                    </tr>
+                    <!-- Section Image -->
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- Button -->
+                    <table
+                      width="150"
+                      height="40"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                      bgcolor="#1273EB"
+                      style="border-radius: 10px"
+                      class="m-main-btn"
+                    >
+                      <tr>
+                        <td
+                          align="center"
+                          valign="middle"
+                          height="40"
+                          style="
+                            font-size: 14px;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                          "
+                        >
+                          <a
+                            href="#"
+                            target="_blank"
+                            style="
+                              color: #ffffff;
+                              display: inline-block;
+                              text-decoration: none;
+                              line-height: 40px;
+                              width: 150px;
+                            "
+                            >Play Now
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Button -->
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
-            <!-- !@ Starting Soon & Button -->
 
-            <!-- & Bitcoin Dice -->
+            <!-- * BITCOIN DICE SECTION END * -->
+
             <table>
               <tr>
-                <td height="30" style="font-size: 30px; line-height: 30px">
-                  <!-- space -->
+                <td height="6" style="font-size: 6px; line-height: 6px">
+                  &nbsp;
                 </td>
               </tr>
             </table>
+
+            <!-- * BITCOIN BETTING SECTION START * -->
+
+            <table
+              width="595"
+              cellspacing="0"
+              cellpadding="0"
+              border="0"
+              align="center"
+              style="
+                max-width: 595px;
+                width: 98%;
+                border-radius: 10px;
+                background-color: #f6f6f6;
+              "
+              bgcolor="#F6F6F6"
+            >
+              <tr>
+                <td align="center" valign="top" style="padding: 10px">
+                  <table
+                    width="595"
+                    cellspacing="0"
+                    cellpadding="0"
+                    border="0"
+                    align="center"
+                    style="max-width: 595px; width: 98%"
+                  >
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top">
+                        <h2
+                          class="m-title"
+                          style="
+                            font-size: 35px;
+                            font-weight: 800;
+                            letter-spacing: 2px;
+                            line-height: 45px;
+                          "
+                        >
+                          BITCOIN BETTING
+                        </h2>
+                        <p style="font-size: 13px" class="m-subtitle">
+                          Earn Triple Rewards On Every 500 Shatoshi Bet.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        height="20"
+                        style="font-size: 20px; line-height: 20px"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- Section Image -->
+                    <tr>
+                      <td align="center" valign="middle">
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
+                          ><img
+                            src="image-4.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: block;
+                              max-width: 600px;
+                            "
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
+                      </td>
+                    </tr>
+                    <!-- Section Image -->
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <!-- Button -->
+                    <table
+                      width="150"
+                      height="40"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                      bgcolor="#1273EB"
+                      style="border-radius: 10px"
+                      class="m-main-btn"
+                    >
+                      <tr>
+                        <td
+                          align="center"
+                          valign="middle"
+                          height="40"
+                          style="
+                            font-size: 14px;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                          "
+                        >
+                          <a
+                            href="#"
+                            target="_blank"
+                            style="
+                              color: #ffffff;
+                              display: inline-block;
+                              text-decoration: none;
+                              line-height: 40px;
+                              width: 150px;
+                            "
+                            >Bet Now
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- Button -->
+                    <tr>
+                      <td
+                        height="30"
+                        style="font-size: 30px; line-height: 30px"
+                        class="m-20-space"
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- * BITCOIN BETTING SECTION END * -->
+
+            <!-- * BANNER IMAGE SECTION START * -->
             <table
               width="600"
               cellspacing="0"
               cellpadding="0"
               border="0"
               align="center"
-              style="max-width: 600px; width: 100%; border-radius: 10px"
-              bgcolor="#F6F6F6"
+              style="max-width: 600px; width: 100%"
+              bgcolor="#FFFFFF"
             >
               <tr>
-                <td align="center" valign="top" style="padding: 50px 10px">
+                <td align="center" valign="top" style="padding: 4px">
                   <table
                     width="600"
                     cellspacing="0"
@@ -464,34 +935,13 @@
                   >
                     <tr>
                       <td align="center" valign="top">
-                        <h3
-                          style="
-                            font-size: 22px;
-                            font-weight: 800;
-                            letter-spacing: 5px;
-                          "
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
                         >
-                          BITCOIN DICE
-                        </h3>
-                        <p style="font-size: 13px">
-                          Triple Your Rewards : Get 3X Bonus Points With Every
-                          Roll and Wager.
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        height="30"
-                        style="font-size: 30px; line-height: 30px"
-                      >
-                        <!-- SPACE -->
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="top">
-                        <a href="#" style="text-decoration: none">
                           <img
-                            src="https://i.postimg.cc/yNTt7QpL/image-3.png"
+                            src="image-5.png"
                             width="100%"
                             style="
                               margin: 0;
@@ -507,69 +957,10 @@
                         </a>
                       </td>
                     </tr>
-                    <tr>
-                      <td
-                        height="20"
-                        style="font-size: 20px; line-height: 20px"
-                      >
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <!-- Button -->
-                        <table
-                          width="175"
-                          height="40"
-                          cellpadding="0"
-                          cellspacing="0"
-                          border="0"
-                          bgcolor="#1273EB"
-                          style="border-radius: 5px"
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="middle"
-                              height="40"
-                              style="
-                                font-size: 16px;
-                                font-weight: 600;
-                                letter-spacing: 1px;
-                              "
-                            >
-                              <a
-                                href="#"
-                                target="_blank"
-                                style="
-                                  color: #ffffff;
-                                  display: inline-block;
-                                  text-decoration: none;
-                                  line-height: 40px;
-                                  width: 175px;
-                                "
-                                >PLAY NOW
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- Button -->
-                      </td>
-                    </tr>
                   </table>
                 </td>
               </tr>
             </table>
-
-            <!-- & Bitcoin Dice -->
-
-            <tr>
-              <td height="20" style="font-size: 20px; line-height: 20px">
-                &nbsp;
-              </td>
-            </tr>
-
-            <!-- & Bitcoin Betting -->
 
             <table
               width="600"
@@ -577,11 +968,11 @@
               cellpadding="0"
               border="0"
               align="center"
-              style="max-width: 600px; width: 100%; border-radius: 10px"
-              bgcolor="#F6F6F6"
+              style="max-width: 600px; width: 100%"
+              bgcolor="#FFFFFF"
             >
               <tr>
-                <td align="center" valign="top" style="padding: 50px 10px">
+                <td align="center" valign="top" style="padding: 4px">
                   <table
                     width="600"
                     cellspacing="0"
@@ -592,33 +983,13 @@
                   >
                     <tr>
                       <td align="center" valign="top">
-                        <h3
-                          style="
-                            font-size: 22px;
-                            font-weight: 800;
-                            letter-spacing: 5px;
-                          "
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
                         >
-                          BITCOIN BETTING
-                        </h3>
-                        <p style="font-size: 13px">
-                          Earn Triple Rewards Points On Every 500 Shatoshi Bet.
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        height="30"
-                        style="font-size: 30px; line-height: 30px"
-                      >
-                        <!-- SPACE -->
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="top">
-                        <a href="#" style="text-decoration: none"
-                          ><img
-                            src="https://i.postimg.cc/50NGyBZb/image-4.png"
+                          <img
+                            src="image-6.png"
                             width="100%"
                             style="
                               margin: 0;
@@ -630,164 +1001,17 @@
                             border="0"
                             class="img"
                             alt="image"
-                        /></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        height="20"
-                        style="font-size: 20px; line-height: 20px"
-                      >
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center" valign="middle">
-                        <!-- Button -->
-                        <table
-                          width="175"
-                          height="40"
-                          cellpadding="0"
-                          cellspacing="0"
-                          border="0"
-                          bgcolor="#1273EB"
-                          style="border-radius: 5px"
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="middle"
-                              height="40"
-                              style="
-                                font-size: 16px;
-                                font-weight: 600;
-                                letter-spacing: 1px;
-                              "
-                            >
-                              <a
-                                href="#"
-                                target="_blank"
-                                style="
-                                  color: #ffffff;
-                                  display: inline-block;
-                                  text-decoration: none;
-                                  line-height: 40px;
-                                  width: 175px;
-                                "
-                                >BET NOW
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                        <!-- Button -->
+                          />
+                        </a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
+            <!-- * BANNER IMAGE SECTION END * -->
 
-            <!-- & Bitcoin Betting -->
-
-            <!-- footer image 1 -->
-            <table
-              width="600"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-              align="center"
-              style="max-width: 600px; width: 100%"
-              bgcolor="#FFFFFF"
-            >
-              <tr>
-                <td align="center" valign="top">
-                  <table
-                    width="600"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    align="center"
-                    style="max-width: 600px; width: 100%"
-                  >
-                    <tr>
-                      <td align="center" valign="top">
-                        <img
-                          src="https://i.postimg.cc/qqN5XkJF/image-5.jpg"
-                          width="100%"
-                          style="
-                            margin: 0;
-                            padding: 0;
-                            border: none;
-                            display: block;
-                            max-width: 600px;
-                          "
-                          border="0"
-                          class="img"
-                          alt="image"
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="5" style="font-size: 5px; line-height: 5px">
-                        &nbsp;
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <!-- footer image 1 -->
-
-            <!-- footer image 2 -->
-            <table
-              width="600"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-              align="center"
-              style="max-width: 600px; width: 200%"
-              bgcolor="#FFFFFF"
-            >
-              <tr>
-                <td align="center" valign="top">
-                  <table
-                    width="600"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    align="center"
-                    style="max-width: 600px; width: 100%"
-                  >
-                    <tr>
-                      <td align="center" valign="top">
-                        <img
-                          src="https://i.postimg.cc/fL2P93NX/image-6.jpg"
-                          width="100%"
-                          style="
-                            margin: 0;
-                            padding: 0;
-                            border: none;
-                            display: block;
-                            max-width: 600px;
-                          "
-                          border="0"
-                          class="img"
-                          alt="image"
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td height="5" style="font-size: 5px; line-height: 5px">
-                        &nbsp;
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <!-- footer image 2 -->
-
-            <!-- Final Footer -->
+            <!-- * FOOTER SECTION START * -->
             <table
               width="600"
               cellspacing="0"
@@ -808,46 +1032,69 @@
                     style="max-width: 600px; width: 100%"
                   >
                     <tr>
-                      <td align="center" valign="top">
-                        <p style="font-size: 13px; margin-bottom: 5px">
-                          Get latest News
+                      <td align="center" valign="middle">
+                        <p style="margin-bottom: 5px; font-size: 14px">
+                          Get Latest News
                         </p>
                       </td>
                     </tr>
 
                     <tr>
-                      <td align="center" valign="top">
+                      <td align="center" valign="middle">
                         <a
                           href="#"
                           target="_blank"
-                          style="text-decoration: none; color: #fff"
-                        >
-                          <img
-                            src="https://i.postimg.cc/Wzxf5Qt1/twitter.png"
-                            alt=""
-                            style="width: 20px; margin-right: 5px"
-                          /> </a
-                        ><a
+                          style="text-decoration: none"
+                          ><img
+                            src="fb.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: inline-block;
+                              max-width: 20px;
+                            "
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
+                        <a
                           href="#"
                           target="_blank"
-                          style="text-decoration: none; color: #fff"
-                        >
-                          <img
-                            src="https://i.postimg.cc/pX9wKByd/fb.png"
-                            alt=""
-                            style="width: 20px; margin-right: 5px"
-                          /> </a
-                        ><a
+                          style="text-decoration: none"
+                          ><img
+                            src="twitter.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: inline-block;
+                              max-width: 20px;
+                            "
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
+                        <a
                           href="#"
                           target="_blank"
-                          style="text-decoration: none; color: #fff"
-                        >
-                          <img
-                            src="https://i.postimg.cc/pLz36Xfb/ig.png"
-                            alt=""
-                            style="width: 20px"
-                          />
-                        </a>
+                          style="text-decoration: none"
+                          ><img
+                            src="ig.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: inline-block;
+                              max-width: 20px;
+                            "
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
                       </td>
                     </tr>
                     <tr>
@@ -859,19 +1106,34 @@
                       </td>
                     </tr>
                     <tr>
-                      <td align="center" valign="top">
-                        <img
-                          width="150"
-                          src="https://i.postimg.cc/TPxBMM0y/footer-logo.png"
-                          alt=""
-                        />
+                      <td align="center" valign="middle">
+                        <a
+                          href="#"
+                          target="_blank"
+                          style="text-decoration: none"
+                          ><img
+                            src="footer-logo.png"
+                            width="100%"
+                            style="
+                              margin: 0;
+                              padding: 0;
+                              border: none;
+                              display: block;
+                              max-width: 150px;
+                            "
+                            class="m-foot-logo"
+                            border="0"
+                            class="img"
+                            alt="image"
+                        /></a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
-            <!-- Final Footer -->
+            <!-- * FOOTER SECTION END * -->
+
             <!-- Don't Touch Upper Table  -->
           </td>
         </tr>
